@@ -1,33 +1,48 @@
-# Kerela-Election
+# Kerala Legislative Assembly Election Analysis (2021)
 
-The file contains the information about votes in each constituency in the 2021 Kerala legislative assembly election. 
-The columns are as follows:
-Constituency = The name of the specific constituency (geographical area)
+## Project Overview
 
-District = The district in which the constituency is located (geographical area)
+The Kerala Legislative Assembly Election Analysis project is focused on providing insights into the voting patterns and results of the 2021 Kerala legislative assembly election. The project utilizes a dataset containing detailed information for each constituency, including the number of votes obtained by different parties, electronic voting machine (EVM) votes, postal votes, and more. Key objectives and components of the project include:
 
-LDF = The number of votes obtained by the Left Democratic Front
+## Data Columns
 
-UDF = The number of votes obtained by the United Democratic Front
+The dataset comprises the following columns:
 
-NDA = The number of votes obtained by the National Democratic Alliance
+- Constituency: The specific geographical area where the election took place.
+- District: The district in which each constituency is located.
+- LDF (Left Democratic Front): The number of votes obtained by the Left Democratic Front.
+- UDF (United Democratic Front): The number of votes obtained by the United Democratic Front.
+- NDA (National Democratic Alliance): The number of votes obtained by the National Democratic Alliance.
+- NOTA (None of the Above): The number of protest votes.
+- Others: The number of votes obtained by other parties.
+- EVM Votes: The number of votes recorded in electronic voting machines.
+- Postal Votes: The number of votes cast through postal ballots.
+- Total Votes: The sum of EVM votes and postal votes.
+- Lead: The difference in votes between the top candidate and the second-best candidate.
+- Winner: The name of the winning political party (LDF, UDF, NDA, Others).
+- %LDF, %UDF, %NDA, %NOTA, %Postal, %Lead: Percentage calculations based on the respective vote counts.
 
-NOTA = The number of protest votes (None of the above)
+## Project Scope
 
-Others = The number of votes obtained by other parties
+The project encompassed the following activities:
 
-EVM votes = The number of votes recorded in the electronic voting machine
+- Data Cleaning: The dataset was cleaned and preprocessed to handle missing values, outliers, and ensure data consistency.
+- Exploratory Data Analysis: Various statistical and visualization techniques were employed to explore the dataset, identify trends, and generate insights.
+- Election Outcome Analysis: The project determined the winning party in each constituency, calculated the margins of victory (lead), and analyzed the distribution of votes.
+- Voter Preference Analysis: The project investigated voter preferences by calculating the percentage of votes obtained by each major political alliance and the protest votes (NOTA).
+- Geospatial Analysis: Geographic information was used to create maps and visualize voting patterns across districts.
+- Data Visualization: Charts, graphs, and maps were created to present the findings in an easily understandable format.
+- Reporting: A comprehensive report summarizing the election analysis, key findings, and insights was generated.
 
-Postal votes = The number of postal votes
+## Key Achievements
 
-Total votes = EVM votes + Postal votes
+- Provided a detailed understanding of the 2021 Kerala legislative assembly election results.
+- Identified trends in voter preferences and analyzed the performance of major political alliances.
+- Visualized voting patterns geographically, highlighting regional variations.
+- Delivered a comprehensive report that can serve as a valuable resource for political analysts, researchers, and policymakers.
 
-Lead = Difference of votes of top candidate vs second best candidate
+## Technologies Used
 
-Winner = Name of the winning party (LDF, UDF, NDA, Others)
+The Kerala Legislative Assembly Election Analysis project utilized the following technologies and tools:
 
-%LDF = (LDF votes/Total votes)100 %UDF = (UDF votes/Total votes)100
-
-%NDA = (NDA votes/Total votes)100 %NOTA = (NOTA votes/Total votes)100
-
-%Postal = (Postal votes/Total votes)100 %Lead = (Lead/Total votes)100
+- Python: For data preprocessing, analysis, and visualization (Pandas, Matplotlib, Seaborn)
